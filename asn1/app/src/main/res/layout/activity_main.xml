@@ -7,44 +7,44 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/value"
+        android:id="@+id/countedTo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="0"
+        android:text="@string/counter"
         android:textSize="100sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/plusBtn"
+        app:layout_constraintBottom_toTopOf="@+id/plus_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toast" />
+        app:layout_constraintTop_toBottomOf="@+id/toast_button" />
 
     <Button
-        android:id="@+id/toast"
-        android:layout_width="386dp"
+        android:id="@+id/toast_button"
+        android:layout_width="395dp"
         android:layout_height="97dp"
         android:layout_marginTop="10dp"
-        android:text="TOAST"
+        android:text="@string/toast"
         android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/plusBtn"
+        android:id="@+id/plus_button"
         android:layout_width="395dp"
-        android:layout_height="77dp"
-        android:text="COUNT UP"
+        android:layout_height="97dp"
+        android:text="@string/countUp"
         android:textSize="50sp"
-        app:layout_constraintBottom_toTopOf="@+id/minusBtn"
+        app:layout_constraintBottom_toTopOf="@+id/minus_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/minusBtn"
+        android:id="@+id/minus_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
-        android:text="COUNT DOWN"
+        android:text="@string/countDown"
         android:textSize="50sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
